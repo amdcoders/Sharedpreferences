@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bca.cpi.mittu.sharedpreferences.MainActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtname"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="120dp"
+        android:hint="Enter Your Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtphn"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp"
+        android:hint="Enter your phn no"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtmail"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="120dp"
+        android:hint="Enter your mail id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsubmit"
+        android:text="SUBMIT"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"/>
+
+</RelativeLayout>
